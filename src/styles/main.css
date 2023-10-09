@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #EBEBEB;
+}
+
+html,
+body,
+main {
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.header {
+    min-height: 56px;
+    transition: min-height 0.3s;
+}
+
+.skip-link{
+    text-decoration: none;
+    color: black;
+}
+
+.skip-link span{
+    color: orange;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+.header__inner {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.header__title {
+    font-weight: 300;
+    font-size: 4em;
+    margin: 0.5em 0.25em;
+    display: inline-block;
+    color: #212121;
+}
+
+.header__menu {
+    font-size: 32px;
+    margin: 10px auto;
+    display: block;
+    width: 30px;
+}
+
+
+
+.nav {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.nav__list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav__item {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+
+.nav a {
+    display: inline-block;
+    padding: 1.3em;
+    text-decoration: none;
+    color: #616161;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.hero-element img{
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: all 0.5s ease-out;
+}
+
+.descfood{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.descfood h2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: orange;
+    text-align: center;
+}
+
+.restorant-list{
+    margin-top: 2rem;
+    width: 100%;
+    padding: 3rem;
+    align-content: center;
+
+}
+
+
+.restorant-list h2{
+    text-align: center;
+    color: orange;
+}
+.restorant-list div{
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 1%;
+}
+.restorant-list div img{
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+}
+.nama-restorant{
+    text-align: center;
+}
+
+.ratting{
+    text-align: center;
+    font-weight: bold;
+}
+i.fas.fa-star {
+    text-align: center;
+    color: gold;
+}
+  /* footer */
+footer div{
+    position: absolut;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    margin: 5rem 0 5rem 0;
+    padding: 0.5rem;
+}
