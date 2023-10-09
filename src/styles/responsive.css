@@ -142,8 +142,26 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    hero-element {
+        min-width: 1000px ;
+        margin: 0 auto;
+    }
+
+}
+
 @media screen and (min-width: 1200px) {
-    main {
-        max-width: 1200px;
+    hero-element {
+        width: 100%;
+    }
+    .descfood{
+        margin: 20px 300px;
+    }
+    .descfood img{
+        width: 500px;
+    }
+
+    .descfood p{
+        font-size: 17px;
     }
 }

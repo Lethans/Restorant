@@ -9,13 +9,6 @@ body {
     background-color: #EBEBEB;
 }
 
-html,
-body,
-main {
-    height: 100%;
-    width: 100%;
-}
-
 .container{
     position: sticky;
     top: 0;
@@ -160,9 +153,6 @@ i.fas.fa-star {
 }
   /* footer */
 footer div{
-    position: absolut;
-    bottom: 0;
-    left: 0;
     width: 100%;
     background-color: orange;
     text-align: center;
